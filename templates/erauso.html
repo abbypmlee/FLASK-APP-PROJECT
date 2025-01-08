@@ -1,0 +1,29 @@
+<!-- las opciones para Erauso-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- para usar accentos -->
+    <title>Erauso</title>
+    <style>
+        body {
+            background-image:
+            url('https://upload.wikimedia.org/wikipedia/commons/9/9f/Catalina_de_Erauso.jpg');
+            background-size: cover;
+            background-position: center;}
+    </style>
+</head>
+<body>
+    <h1>Y tú, ¿cómo te llamas? ¡Ten cuidado o encontrarás mi espada!</h1>
+    <form action="/erauso" method="POST">
+        <select name="choice">
+            <option value="1">Cuéntame sobre tu hermano.</option>
+            <option value="2">¿Cómo fue tu niñez?</option>
+            <option value="3">¿Cuántos trabajos has tenido?</option>
+            <option value="4">¿Cuál lugar era tu favorito?</option>
+            <option value="5">¿Cuál fue tu última profesión?</option>
+        </select>
+        <button type="submit">Enviar pregunta</button>
+    </form>
+</body>
+</html>

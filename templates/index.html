@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenidos</title>
+    <style>
+    body {
+        background-image: 
+        url('https://live.staticflickr.com/7002/6822366081_b6f37f9b78_b.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;}
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(255, 255, 255);">¡Bienvenido! ¿Con quién quiere hablar hoy?</h1>
+    <form action="/bienvenidos" method="POST">
+        <select name="bienvenidos" required>
+            <option value="1">Tomás Rodaja</option>
+            <option value="2">Antonio Erauso</option>
+            <option value="3">Marina de Sant Miguel</option>
+        </select>
+        <button type="submit">¡Hablar!</button>
+    </form>
+</body>
+</html>

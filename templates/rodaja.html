@@ -1,0 +1,30 @@
+<!-- la misma plantilla que la de Erauso-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rodaja</title>
+    <style>
+        body {
+            background-image: 
+            url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677802117i/12696037.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;}
+        </style>
+</head>
+<body>
+    <h1 style="color: rgb(255, 255, 255);">Hola.. pero por favor, ¡que no me acerque! Le puedo ayudar a usted mientras que se queda lejos. ¿Qué quieres preguntarme?</h1>
+    <form action="/rodaja" method="POST">
+        <select name="choice">
+            <option value="1">Mi esposa se le había ido con otro... qué debo hacer?</option>
+            <option value="2">¿Cómo va de salud?</option>
+            <option value="3">¿En qué estimación tiene los poetas?</option>
+            <option value="4">¿Quién es lo más felíz del mundo?</option>
+            <option value="5">¿Cuál es la mejor tierra? ¿Valladolid o Madrid?</option>
+        </select>
+        <button type="submit">Enviar pregunta</button>
+    </form>
+</body>
+</html>
